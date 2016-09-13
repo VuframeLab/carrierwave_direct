@@ -2,7 +2,7 @@
 
 require "carrierwave"
 require "uuidtools"
-require "fog/storage/aws"
+require "fog/aws/storage"
 
 module CarrierWaveDirect
 
