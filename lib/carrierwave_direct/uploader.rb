@@ -128,7 +128,7 @@ module CarrierWaveDirect
     private
 
     def decoded_key
-      URI.decode(URI.parse(url).path[1 .. -1])
+      CGI.decode(URI.parse(url).path[1 .. -1])
     end
 
     def key_from_file(fname)
